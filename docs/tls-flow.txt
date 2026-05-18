@@ -1,0 +1,15 @@
+Browser
+   |
+ClientHello
+   ↓
+TLS Server
+   |
+Certificate + Public Key
+   ↓
+ECDHE/X25519 Key Exchange
+   ↓
+Session Key Created
+   ↓
+AES/ChaCha20 Session Encryption
+   ↓
+Encrypted Data Traffic
