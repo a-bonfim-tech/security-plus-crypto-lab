@@ -1,0 +1,4 @@
+subject=C=DE, ST=Berlin, L=Berlin, O=SecurityPlusLab, OU=TLS, CN=localhost
+issuer=C=DE, ST=Berlin, L=Berlin, O=SecurityPlusLab, OU=Crypto, CN=SecurityPlusLocalCA
+notBefore=May 18 14:27:47 2026 GMT
+notAfter=May 18 14:27:47 2027 GMT

@@ -1,0 +1,127 @@
+CONNECTED(00000005)
+---
+Certificate chain
+ 0 s:C=DE, ST=Berlin, L=Berlin, O=SecurityPlusLab, OU=TLS, CN=localhost
+   i:C=DE, ST=Berlin, L=Berlin, O=SecurityPlusLab, OU=Crypto, CN=SecurityPlusLocalCA
+   a:PKEY: RSA, 2048 (bit); sigalg: sha256WithRSAEncryption
+   v:NotBefore: May 18 14:27:47 2026 GMT; NotAfter: May 18 14:27:47 2027 GMT
+-----BEGIN CERTIFICATE-----
+MIIE/jCCAuagAwIBAgIUJU08mOjSciPkh4oQcA+jU7SlWFUwDQYJKoZIhvcNAQEL
+BQAweDELMAkGA1UEBhMCREUxDzANBgNVBAgMBkJlcmxpbjEPMA0GA1UEBwwGQmVy
+bGluMRgwFgYDVQQKDA9TZWN1cml0eVBsdXNMYWIxDzANBgNVBAsMBkNyeXB0bzEc
+MBoGA1UEAwwTU2VjdXJpdHlQbHVzTG9jYWxDQTAeFw0yNjA1MTgxNDI3NDdaFw0y
+NzA1MTgxNDI3NDdaMGsxCzAJBgNVBAYTAkRFMQ8wDQYDVQQIDAZCZXJsaW4xDzAN
+BgNVBAcMBkJlcmxpbjEYMBYGA1UECgwPU2VjdXJpdHlQbHVzTGFiMQwwCgYDVQQL
+DANUTFMxEjAQBgNVBAMMCWxvY2FsaG9zdDCCASIwDQYJKoZIhvcNAQEBBQADggEP
+ADCCAQoCggEBAOV8EppFJ1l28TSNCDqaxjeA4Ed/WqvV3p9VTSWJ4eOA93on+3Mj
+POlpTuQVmCFEnH8EeqWxuTaEL4me76kRmWi1EzEkRZDlphOFqFMSFsU6FFB74S9Y
+mh5Mz2BSZNZ7ELZ7PjirlNiHnow9P/1BWGt376jRalFIsNjrwEaSSM8WGMgfNa/P
+2W891YMAH9collVAgKEGnd6B5dDvs9uaIGghi6UVb9vE7D/6tMm7YPBjhMokzcJH
+9JPLyuaQ3+yhPvhU+cAO69aKpuT6k661DYnHJQBD029V1mPgttSk69o/04+NHGdL
+lWJ7R5W1y1VDg/xil9MKm68GbXxg7NT7FusCAwEAAaOBjDCBiTAfBgNVHSMEGDAW
+gBQpmfARfU/mzJyojY5vTyt8ftMtfTAJBgNVHRMEAjAAMAsGA1UdDwQEAwIFoDAT
+BgNVHSUEDDAKBggrBgEFBQcDATAaBgNVHREEEzARgglsb2NhbGhvc3SHBH8AAAEw
+HQYDVR0OBBYEFA1iJHW8D+8m41VgIQB95UsWSgfPMA0GCSqGSIb3DQEBCwUAA4IC
+AQB3zYxrsNDMyIbJT/tRYP0n2wiAZ0HEzjquKOLoS3ArHN85HEWmkNL3tIESOTzT
+lN82OrujiopdY9gRtt5weDLwVIjh6I0r0w1m633OnQXy4KFklWPvvsnQ/OA4sg5+
+Zu3LgIBJZrljdWD8K6UDXTN9bDNrjknchEHCpDQThLRfei5w+lChuABkjR7htaMz
+oDFIji3w8vcKKKUX0HTBcguayL1mrje+nHCaQWl/L4vovvZ1HLMX7nN3Xd7Us6iU
+4Cl2ZJlt1ZadJZ4hGYiMZot5bO7iin7tGcx74O9lABd1pNLo+v8pCYfEiaX/7mr9
+nWCqpPILIalF5lR/AGjTxEDsSJZOR4nhlsUssJtIPRGlf1AJmogn/xpjdSitzR1h
+BJ2g6Ns+xwEC8HB8oL3neDa3arWArHOsXdXLvmtw++/I+3csDKL0R6jokf/9onc4
+XRk/2Po28850qd8R32GlPLBnwA/PgSStOIcMsd51lN9oLo9gt8Ba3Y1c+1Ygh6BG
+aHluSEiG4/1R/OA7voWv4UdxOfJMZpHLADMufVp4UV5vdHgUluLZixzzGVUtm1RK
+QWQKCGNDMbNfX+hIk+VtXouw30kfR6eQ05LdtQDaI1DUMzYgJctBdVcapv0kQUqN
+3R4IZcXyyD5b1rgL+8H+fbXyPVM13hxWmwvBcInJoW3gnA==
+-----END CERTIFICATE-----
+---
+Server certificate
+subject=C=DE, ST=Berlin, L=Berlin, O=SecurityPlusLab, OU=TLS, CN=localhost
+issuer=C=DE, ST=Berlin, L=Berlin, O=SecurityPlusLab, OU=Crypto, CN=SecurityPlusLocalCA
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: rsa_pss_rsae_sha256
+Negotiated TLS1.3 group: X25519MLKEM768
+---
+SSL handshake has read 2926 bytes and written 1529 bytes
+Verification: OK
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Protocol: TLSv1.3
+Server public key is 2048 bit
+This TLS version forbids renegotiation.
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 0 (ok)
+---
+---
+Post-Handshake New Session Ticket arrived:
+SSL-Session:
+    Protocol  : TLSv1.3
+    Cipher    : TLS_AES_256_GCM_SHA384
+    Session-ID: E95BA6C5E17BDD2DB196EDDFE92B2C2FC788E2E3B88660715A30EBE97A4B8144
+    Session-ID-ctx: 
+    Resumption PSK: 11F0C627DF72BDE8DDFFE6051FFBEE74F76C3E61A2F2B0C2CFD73A61E09B679B4998569D99D2F79E3B4D81297019CDBF
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 7200 (seconds)
+    TLS session ticket:
+    0000 - 21 25 2b 5a f4 bd 45 05-6c ca fe 02 af 6c fb 80   !%+Z..E.l....l..
+    0010 - 02 6e ba 95 c4 c7 2c 95-99 be fc 98 2f 6d 68 ab   .n....,...../mh.
+    0020 - 72 1e e2 96 4e 46 cd 74-41 72 79 2b cf 37 c4 d4   r...NF.tAry+.7..
+    0030 - cc ac 78 c6 7f b1 51 1f-66 42 ff 54 a0 93 99 4b   ..x...Q.fB.T...K
+    0040 - 1e 56 13 6c 28 f4 76 17-42 e8 8c c1 4c cb 2a 50   .V.l(.v.B...L.*P
+    0050 - 4b 18 f1 69 34 90 7a f4-59 8e 81 ee b4 68 db d4   K..i4.z.Y....h..
+    0060 - 4e 9e db 17 32 83 e0 d5-2e be 62 ce dc 9d 66 a6   N...2.....b...f.
+    0070 - 93 de e0 bc 2d 3e fb 2e-cc 36 9b 3b fc b1 c4 f9   ....->...6.;....
+    0080 - c0 57 e6 36 77 05 54 6e-75 8a 40 dc cb 3a f2 10   .W.6w.Tnu.@..:..
+    0090 - 72 e7 33 4d 29 03 77 1f-1c a7 c9 2f ba 7e bc bc   r.3M).w..../.~..
+    00a0 - eb 8c 07 6e 0a b1 db 3b-e5 b0 1c 33 80 95 86 a8   ...n...;...3....
+    00b0 - 91 12 c7 26 28 c7 96 47-03 39 62 6a 0c e4 e9 d4   ...&(..G.9bj....
+    00c0 - d9 64 c5 81 c6 bf 62 2d-4a e2 2e cc 61 db 38 84   .d....b-J...a.8.
+
+    Start Time: 1779114602
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: no
+    Max Early Data: 0
+---
+read R BLOCK
+---
+Post-Handshake New Session Ticket arrived:
+SSL-Session:
+    Protocol  : TLSv1.3
+    Cipher    : TLS_AES_256_GCM_SHA384
+    Session-ID: CA6BA4917951E1B4363733A0C99452DB8C3ED82060D4C031C65788540F6BCB0B
+    Session-ID-ctx: 
+    Resumption PSK: 62E21945AFF1D0113A9100C1FC589C2DB46EFEC06FF59EDF97BFE8312A12EFDFCF66F52BC4E8B4FB1C52639D30F207A0
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 7200 (seconds)
+    TLS session ticket:
+    0000 - 21 25 2b 5a f4 bd 45 05-6c ca fe 02 af 6c fb 80   !%+Z..E.l....l..
+    0010 - 0d f8 39 39 88 1c ed b5-02 ae 87 75 05 a0 83 ad   ..99.......u....
+    0020 - e6 58 d7 63 0f 68 41 a1-60 bf 2b cc 6a 68 74 ff   .X.c.hA.`.+.jht.
+    0030 - 42 75 73 d2 7f 77 8e 04-a6 8b 2a 50 8c 93 6e 72   Bus..w....*P..nr
+    0040 - 93 85 1d e7 26 7c 34 89-1d cd cb b3 c4 26 a9 ce   ....&|4......&..
+    0050 - da 49 b0 64 c1 09 bf d8-7b 55 79 a2 57 a2 f5 82   .I.d....{Uy.W...
+    0060 - c1 10 4e 9b d1 cf 78 f0-a1 e9 e2 aa d1 8f 75 19   ..N...x.......u.
+    0070 - 76 fc 5a be 78 39 bb 39-72 8d 39 f1 d9 c4 10 27   v.Z.x9.9r.9....'
+    0080 - 83 e0 cf 6b 28 a9 4c 76-93 b4 0e 5d 9e 12 09 4e   ...k(.Lv...]...N
+    0090 - c2 70 2e 1a ee 69 86 a9-05 54 e0 d9 d5 0d 81 4f   .p...i...T.....O
+    00a0 - 8f e8 35 b1 38 9e 2b b2-75 e1 59 07 8d 11 b6 c2   ..5.8.+.u.Y.....
+    00b0 - 5d 3c a2 17 ee ce ac 9f-16 e9 f4 52 a1 b6 f7 16   ]<.........R....
+    00c0 - cd 59 25 df 5d 52 86 8f-57 81 f7 46 c7 7b 53 0c   .Y%.]R..W..F.{S.
+
+    Start Time: 1779114602
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: no
+    Max Early Data: 0
+---
+read R BLOCK

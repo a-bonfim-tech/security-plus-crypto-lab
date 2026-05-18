@@ -1,0 +1,78 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            25:4d:3c:98:e8:d2:72:23:e4:87:8a:10:70:0f:a3:53:b4:a5:58:55
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=DE, ST=Berlin, L=Berlin, O=SecurityPlusLab, OU=Crypto, CN=SecurityPlusLocalCA
+        Validity
+            Not Before: May 18 14:27:47 2026 GMT
+            Not After : May 18 14:27:47 2027 GMT
+        Subject: C=DE, ST=Berlin, L=Berlin, O=SecurityPlusLab, OU=TLS, CN=localhost
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:e5:7c:12:9a:45:27:59:76:f1:34:8d:08:3a:9a:
+                    c6:37:80:e0:47:7f:5a:ab:d5:de:9f:55:4d:25:89:
+                    e1:e3:80:f7:7a:27:fb:73:23:3c:e9:69:4e:e4:15:
+                    98:21:44:9c:7f:04:7a:a5:b1:b9:36:84:2f:89:9e:
+                    ef:a9:11:99:68:b5:13:31:24:45:90:e5:a6:13:85:
+                    a8:53:12:16:c5:3a:14:50:7b:e1:2f:58:9a:1e:4c:
+                    cf:60:52:64:d6:7b:10:b6:7b:3e:38:ab:94:d8:87:
+                    9e:8c:3d:3f:fd:41:58:6b:77:ef:a8:d1:6a:51:48:
+                    b0:d8:eb:c0:46:92:48:cf:16:18:c8:1f:35:af:cf:
+                    d9:6f:3d:d5:83:00:1f:d7:28:96:55:40:80:a1:06:
+                    9d:de:81:e5:d0:ef:b3:db:9a:20:68:21:8b:a5:15:
+                    6f:db:c4:ec:3f:fa:b4:c9:bb:60:f0:63:84:ca:24:
+                    cd:c2:47:f4:93:cb:ca:e6:90:df:ec:a1:3e:f8:54:
+                    f9:c0:0e:eb:d6:8a:a6:e4:fa:93:ae:b5:0d:89:c7:
+                    25:00:43:d3:6f:55:d6:63:e0:b6:d4:a4:eb:da:3f:
+                    d3:8f:8d:1c:67:4b:95:62:7b:47:95:b5:cb:55:43:
+                    83:fc:62:97:d3:0a:9b:af:06:6d:7c:60:ec:d4:fb:
+                    16:eb
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Authority Key Identifier: 
+                29:99:F0:11:7D:4F:E6:CC:9C:A8:8D:8E:6F:4F:2B:7C:7E:D3:2D:7D
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Key Usage: 
+                Digital Signature, Key Encipherment
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            X509v3 Subject Alternative Name: 
+                DNS:localhost, IP Address:127.0.0.1
+            X509v3 Subject Key Identifier: 
+                0D:62:24:75:BC:0F:EF:26:E3:55:60:21:00:7D:E5:4B:16:4A:07:CF
+    Signature Algorithm: sha256WithRSAEncryption
+    Signature Value:
+        77:cd:8c:6b:b0:d0:cc:c8:86:c9:4f:fb:51:60:fd:27:db:08:
+        80:67:41:c4:ce:3a:ae:28:e2:e8:4b:70:2b:1c:df:39:1c:45:
+        a6:90:d2:f7:b4:81:12:39:3c:d3:94:df:36:3a:bb:a3:8a:8a:
+        5d:63:d8:11:b6:de:70:78:32:f0:54:88:e1:e8:8d:2b:d3:0d:
+        66:eb:7d:ce:9d:05:f2:e0:a1:64:95:63:ef:be:c9:d0:fc:e0:
+        38:b2:0e:7e:66:ed:cb:80:80:49:66:b9:63:75:60:fc:2b:a5:
+        03:5d:33:7d:6c:33:6b:8e:49:dc:84:41:c2:a4:34:13:84:b4:
+        5f:7a:2e:70:fa:50:a1:b8:00:64:8d:1e:e1:b5:a3:33:a0:31:
+        48:8e:2d:f0:f2:f7:0a:28:a5:17:d0:74:c1:72:0b:9a:c8:bd:
+        66:ae:37:be:9c:70:9a:41:69:7f:2f:8b:e8:be:f6:75:1c:b3:
+        17:ee:73:77:5d:de:d4:b3:a8:94:e0:29:76:64:99:6d:d5:96:
+        9d:25:9e:21:19:88:8c:66:8b:79:6c:ee:e2:8a:7e:ed:19:cc:
+        7b:e0:ef:65:00:17:75:a4:d2:e8:fa:ff:29:09:87:c4:89:a5:
+        ff:ee:6a:fd:9d:60:aa:a4:f2:0b:21:a9:45:e6:54:7f:00:68:
+        d3:c4:40:ec:48:96:4e:47:89:e1:96:c5:2c:b0:9b:48:3d:11:
+        a5:7f:50:09:9a:88:27:ff:1a:63:75:28:ad:cd:1d:61:04:9d:
+        a0:e8:db:3e:c7:01:02:f0:70:7c:a0:bd:e7:78:36:b7:6a:b5:
+        80:ac:73:ac:5d:d5:cb:be:6b:70:fb:ef:c8:fb:77:2c:0c:a2:
+        f4:47:a8:e8:91:ff:fd:a2:77:38:5d:19:3f:d8:fa:36:f3:ce:
+        74:a9:df:11:df:61:a5:3c:b0:67:c0:0f:cf:81:24:ad:38:87:
+        0c:b1:de:75:94:df:68:2e:8f:60:b7:c0:5a:dd:8d:5c:fb:56:
+        20:87:a0:46:68:79:6e:48:48:86:e3:fd:51:fc:e0:3b:be:85:
+        af:e1:47:71:39:f2:4c:66:91:cb:00:33:2e:7d:5a:78:51:5e:
+        6f:74:78:14:96:e2:d9:8b:1c:f3:19:55:2d:9b:54:4a:41:64:
+        0a:08:63:43:31:b3:5f:5f:e8:48:93:e5:6d:5e:8b:b0:df:49:
+        1f:47:a7:90:d3:92:dd:b5:00:da:23:50:d4:33:36:20:25:cb:
+        41:75:57:1a:a6:fd:24:41:4a:8d:dd:1e:08:65:c5:f2:c8:3e:
+        5b:d6:b8:0b:fb:c1:fe:7d:b5:f2:3d:53:35:de:1c:56:9b:0b:
+        c1:70:89:c9:a1:6d:e0:9c
