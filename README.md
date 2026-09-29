@@ -68,21 +68,11 @@ Inspect certificate extensions:
 openssl x509 -in certs/server.crt -noout -text
 ~~~
 
-Retained evidence and certificate artifacts can be independently inspected, but the original execution procedure is not fully retained.
+Reproduction covers the retained certificate artifacts; the original end-to-end execution sequence was not retained.
 
-## Evidence boundary
+## Evidence scope
 
-This repository demonstrates a controlled local TLS/PKI lab. It does not establish:
-
-- public CA or public Web PKI trust;
-- production traffic or production deployment;
-- certificate revocation, OCSP or CRL testing;
-- rejection or disabling of TLS 1.2;
-- attack execution, exploitation, SIEM, EDR or incident response activity;
-- use of Wireshark;
-- the historical execution toolchain or complete original command sequence.
-
-The retained TLS outputs demonstrate the negotiated parameters recorded in those sessions. Claims beyond those artifacts are intentionally excluded.
+This repository documents a local TLS/PKI lab using retained certificates and TLS 1.3 session outputs. The evidence covers certificate inspection, trust validation and recorded AES-GCM / ChaCha20-Poly1305 negotiations; broader production PKI, revocation and incident-response scenarios remain outside scope.
 
 ## Repository contents
 
